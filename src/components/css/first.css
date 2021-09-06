@@ -1,0 +1,16 @@
+div{
+    display : grid;
+    grid-template-columns: auto auto;
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    padding-bottom:10px;
+}
+.like_img{
+    color: red;
+   padding-top: 50%;
+   font-size: 20px;
+}
