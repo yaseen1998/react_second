@@ -103,3 +103,12 @@ Finish time: 4:30
 
 Actual time needed to complete: 30 minutes 
 
+Number and name of feature:make modal
+
+Estimate of time needed to complete:2 hours
+
+Start time: 2:30
+
+Finish time: 4
+
+Actual time needed to complete: 1:30 hours 
