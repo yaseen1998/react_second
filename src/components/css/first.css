@@ -3,11 +3,13 @@
     grid-template-columns: auto auto;
     
 }
-img{
+.image{
+    padding-left:10px;
     height: 200px;
     width: 300px;
     border-radius: 50%;
-    padding-bottom:15px;
+    /* padding-bottom:30px; */
+    margin-bottom: 20px;
 }
 .like_img{
     color: red;
@@ -17,3 +19,12 @@ img{
 .container{
     height: 400px;
 }
+.img-size{
+    
+        margin: 0;
+        height: 300px;
+        width: 460px;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
