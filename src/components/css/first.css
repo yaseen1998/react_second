@@ -1,4 +1,4 @@
-div{
+.main{
     display : grid;
     grid-template-columns: auto auto;
     
@@ -13,4 +13,7 @@ img{
     color: red;
    padding-top: 50%;
    font-size: 20px;
+}
+.container{
+    height: 400px;
 }

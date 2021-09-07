@@ -147,16 +147,17 @@ class Image extends Component {
             }
           ]
         return (
-            <div>
+            
                  <>
                     {
                         img.map(element=>{
-                            return <HornedBeast  image_url={element.image_url} />
+                          return <HornedBeast title={element.title} image_url={element.image_url} description ={element.description}
+                          keyword = {element.keyword} horns={element.horns}/>
                         })
                     }
                     
                 </>
-            </div>
+            
         )
     }
 }

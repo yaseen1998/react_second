@@ -19,13 +19,17 @@ class HornedBeast extends Component {
     }
     render() {
         return (
-            <div>
-            {/* <h2>title: {this.props.title}</h2> */}
+            <div className={'main'}>
+                <div className ={'container'}>
+            
 
             <img onClick={this.raiselike} src = {this.props.image_url} alt = 'HornedBeas'  style={{width: "300px"}}></img>
-            
+            <hr/>
+            <h2>HornedBeast: {this.props.title}</h2>
+            <p>description {this.props.description} <br/> <strong> number of horns: {this.props.horns} horns</strong></p>
+            </div>
             <div className={'like_img'} >number of like  🧡🧡: {this.state.statelike} </div> 
-            {/* <p>description {this.props.description} <strong> it has {this.props.horns} horns</strong></p> */}
+            <hr/>
         </div>
         )
     }
