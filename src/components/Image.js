@@ -2,12 +2,6 @@ import React, { Component } from "react";
 import HornedBeast from "./HornedBeast";
 import img from "./data.json";
 class Image extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-
-
   render() {
     return (
       <div className="row">
@@ -35,6 +29,7 @@ class Image extends Component {
               horns={element.horns} />;
 
           }
+          return null
 
         })}
       </div>
