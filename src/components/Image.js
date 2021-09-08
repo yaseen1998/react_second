@@ -2,19 +2,13 @@ import React, { Component } from "react";
 import HornedBeast from "./HornedBeast";
 import img from "./data.json";
 class Image extends Component {
-  constructor(props) {
-    super(props)
-
-  }
-
-
   render() {
     return (
       <div className="row">
 
         {img.map((element, index) => {
 
-          if (element.horns == this.props.Horns) {
+          if (element.horns === this.props.Horns) {
             return <HornedBeast
               key={index}
               title={element.title}
@@ -35,7 +29,7 @@ class Image extends Component {
               horns={element.horns} />;
 
           }
-
+return null
         })}
       </div>
     );
