@@ -9,11 +9,26 @@ class Image extends Component {
     }
 
 
+
   render() {
     return (
       <div className="row">
           
         {img.map((element,index) => {
+           {
+                        img.map((element,index)=>{
+                          return <HornedBeast
+                          key ={index} 
+                          title={element.title} 
+                          image_url={element.image_url}
+                           description ={element.description}
+                          keyword = {element.keyword} 
+                          horns={element.horns}/>
+                        })
+                    }
+                    
+                </div>
+
             
             if(element.horns==this.props.Horns){
           return <HornedBeast
