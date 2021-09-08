@@ -26,7 +26,7 @@ export class Form extends Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label htmlFor="horns">number of horns</label>
+          <label htmlFor="horns">number of horn</label>
           <select name="horns" onChange={this.update}>
             <option value="">horns:</option>
             <option value={1}>horns:1</option>
@@ -36,7 +36,6 @@ export class Form extends Component {
           </select>
           <input type="submit" name="" value="submit" />
         </form>
-        <Image handleShownClose={this.handleShownClose} />
         <Image Horns={this.state.value} />
       </div>
     );

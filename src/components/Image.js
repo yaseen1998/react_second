@@ -15,7 +15,7 @@ class Image extends Component {
           
         {img.map((element,index) => {
             
-            if(element.horns===this.props.Horns){
+            if(element.horns==this.props.Horns){
           return <HornedBeast
           key={index}
             handleOpen={this.props.handleOpen}
