@@ -10,9 +10,9 @@ class Image extends Component {
           <div className="row">
 
                     {
-                        img.map(element=>{
-                          return <HornedBeast 
-                          handleOpen={this.props.handleOpen} 
+                        img.map((element,index)=>{
+                          return <HornedBeast
+                          key ={index} 
                           title={element.title} 
                           image_url={element.image_url}
                            description ={element.description}
