@@ -12,7 +12,6 @@ class Image extends Component {
                     {
                         img.map(element=>{
                           return <HornedBeast 
-                          handleOpen={this.props.handleOpen} 
                           title={element.title} 
                           image_url={element.image_url}
                            description ={element.description}
