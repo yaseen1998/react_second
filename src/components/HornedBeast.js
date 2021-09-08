@@ -36,6 +36,7 @@ class HornedBeast extends Component {
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Text>
                         number of like  🧡🧡: {this.state.statelike}
+                            
                         </Card.Text>
                         <Button 
                                 onClick={this.getHandleOpen}
@@ -46,9 +47,7 @@ class HornedBeast extends Component {
                     </Card.Body>
                 </Card>
             </Col>
-            
         </>
-        
         )
     }
 }
