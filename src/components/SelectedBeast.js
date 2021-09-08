@@ -26,7 +26,6 @@ export class SelectedBeast extends Component {
             
           </Modal>        
           
-            // <div class="modal-dialog modal-lg">...</div>
         )
     }
 }

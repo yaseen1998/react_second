@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import Form from './components/Form'
 import Image from './components/Image'
@@ -15,6 +16,7 @@ export class App extends Component {
         </div>
 
       </>
+
     )
   }
 }

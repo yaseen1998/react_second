@@ -1,4 +1,3 @@
-/* eslint-disable no-lone-blocks */
 import React, { Component } from "react";
 import HornedBeast from "./HornedBeast";
 import img from "./data.json";
@@ -46,4 +45,3 @@ class Image extends Component {
 }
 
 export default Image;
-

@@ -62,4 +62,7 @@ class HornedBeast extends Component {
     }
 }
 
+
 export default HornedBeast
+
+
