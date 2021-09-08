@@ -27,4 +27,24 @@
         background-size: cover;
         overflow: hidden;
     }
+    .form {
+        margin-bottom: 30px;
     
+    }
+    .submit{
+        margin-top: 10px;
+    position: relative;
+    left: 52%;
+    font-size: 25px;
+    top: -55px;
+    }
+    .select{
+        width: 50%;
+    background-color: #20d0dd;
+    font-size: 20px;
+    }
+    .label{
+        font-size: 30px;
+    padding-bottom: 10px;
+
+    }

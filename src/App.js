@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import Form from './components/Form'
 import Image from './components/Image'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/css/first.css'
