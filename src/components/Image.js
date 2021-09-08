@@ -18,7 +18,6 @@ class Image extends Component {
             if(element.horns==this.props.Horns){
           return <HornedBeast
           key={index}
-            handleOpen={this.props.handleOpen}
             title={element.title}
             image_url={element.image_url}
             description={element.description}
@@ -30,7 +29,6 @@ class Image extends Component {
             
             return <HornedBeast
             key={index}
-            handleOpen={this.props.handleOpen}
             title={element.title}
             image_url={element.image_url}
             description={element.description}
