@@ -17,7 +17,9 @@
 import React, { Component } from 'react'
 import Image from './components/Image'
 import SelectedBeast from './components/SelectedBeast'
+import Form from './components/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/css/first.css'
 
 export class App extends Component {
   constructor(props){
@@ -30,6 +32,7 @@ export class App extends Component {
         horns:''
     }
 }
+
   handleClose=()=>{
     this.setState({
       showModal:false
@@ -42,12 +45,17 @@ export class App extends Component {
       title:title,
       url:url,
       horns:horns
-
     })
   }
   render() {
     return (
+
+
+<>
+
+
       <div className={'app'}>
+
         <Image handleOpen={this.handleOpen}/>
         <SelectedBeast handleClose={this.handleClose} 
                 showModal={this.state.showModal} 
@@ -56,9 +64,12 @@ export class App extends Component {
                 url = {this.state.url}
                 horns ={this.state.horns}
                  />
+
       </div>
+      <Form/>
+
+</>
     )
   }
 }
-
 export default App
