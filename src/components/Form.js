@@ -9,7 +9,7 @@ class Form extends Component {
       target: "",
       value: "",
     };
-    
+
 
   }
   update = (event) => {
@@ -21,7 +21,7 @@ class Form extends Component {
     event.preventDefault();
     this.setState({
       value: parseInt(this.state.target),
-      
+
     });
   };
 
@@ -29,15 +29,15 @@ class Form extends Component {
     return (
       <div>
         <form className={'form'} onSubmit={this.handleSubmit}>
-          <label htmlFor="horns" className = 'label'>number of horn</label>
-          <select name="horns" className="form-select select" aria-label="Default select example"onChange={this.update}>
+          <label htmlFor="horns" className='label'>number of horn</label>
+          <select name="horns" className="form-select select" aria-label="Default select example" onChange={this.update}>
             <option value={0}>horns:</option>
             <option value={1}>horns:1</option>
             <option value={2}>horns:2</option>
             <option value={3}>horns:3</option>
             <option value={100}>horns:100</option>
           </select>
-          <input type="submit"  className="btn btn-success submit" value="Search" />
+          <input type="submit" className="btn btn-success submit" value="Search" />
         </form>
         <Image Horns={this.state.value} />
       </div>

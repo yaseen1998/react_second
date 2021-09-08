@@ -10,7 +10,7 @@ class HornedBeast extends Component {
 
         this.state = {
             statelike: 0,
-            showModal:false,
+            showModal: false,
         }
     }
     raiselike = () => {
@@ -19,18 +19,18 @@ class HornedBeast extends Component {
 
         })
     }
-    handleClose=()=>{
+    handleClose = () => {
         this.setState({
-          showModal:false
+            showModal: false
         })
-      }
+    }
     getHandleOpen = () => {
         this.setState({
-            showModal:true,
-          })
-          
-        
-        
+            showModal: true,
+        })
+
+
+
     }
     render() {
         return (
@@ -54,12 +54,12 @@ class HornedBeast extends Component {
                         </Card.Body>
                     </Card>
                 </Col>
-                <SelectedBeast handleClose={this.handleClose} 
-            showModal={this.state.showModal} 
-            description = {this.props.description}
-            title = {this.props.title}
-            url = {this.props.image_url}
-            horns ={this.props.horns}/>
+                <SelectedBeast handleClose={this.handleClose}
+                    showModal={this.state.showModal}
+                    description={this.props.description}
+                    title={this.props.title}
+                    url={this.props.image_url}
+                    horns={this.props.horns} />
             </>
         )
     }
