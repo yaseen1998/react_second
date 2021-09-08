@@ -31,7 +31,7 @@ class Form extends Component {
         <form className={'form'} onSubmit={this.handleSubmit}>
           <label htmlFor="horns" className = 'label'>number of horn</label>
           <select name="horns" className="form-select select" aria-label="Default select example"onChange={this.update}>
-            <option value="">horns:</option>
+            <option value={0}>horns:</option>
             <option value={1}>horns:1</option>
             <option value={2}>horns:2</option>
             <option value={3}>horns:3</option>

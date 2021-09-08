@@ -29,6 +29,17 @@ class Image extends Component {
               horns={element.horns} />;
 
           }
+          else if (this.props.Horns === 0) {
+
+            return <HornedBeast
+              key={index}
+              title={element.title}
+              image_url={element.image_url}
+              description={element.description}
+              keyword={element.keyword}
+              horns={element.horns} />;
+
+          }
           return null
 
         })}
