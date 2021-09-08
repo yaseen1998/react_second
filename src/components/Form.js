@@ -20,7 +20,8 @@ class Form extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     this.setState({
-      value: this.state.target,
+      value: parseInt(this.state.target),
+      
     });
   };
 
