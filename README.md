@@ -112,3 +112,13 @@ Start time: 2:30
 Finish time: 4
 
 Actual time needed to complete: 1:30 hours 
+
+failed upload in neltify
+
+Number and name of feature:make filter
+
+Estimate of time needed to complete:4 hours
+
+Start time: 2:00
+
+Finish time: 7:00
